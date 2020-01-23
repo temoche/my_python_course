@@ -12,4 +12,5 @@ def agregar_contacto (nombre):
     pass
 def buscar_contacto(nombre):
     pass
-def eliminar_contacto()
+def eliminar_contacto():
+    pass
