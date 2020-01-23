@@ -1,1 +1,2 @@
-#A simple phyton course
+### Curso de Python
+## fundamentos básicos para iniciar a programar con *Python*

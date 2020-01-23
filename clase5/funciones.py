@@ -8,7 +8,7 @@ def saludar():
     print ('hola, mundo')
 saludar()   
 def salir():
-    variable = 8
+    global variable 
     variable += 2
     print (variable)
     print('Nos vemos \n miau')
