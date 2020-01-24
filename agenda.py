@@ -22,6 +22,16 @@ def buscar_contacto(nombre):
 def eliminar_contacto(nombre):
     dic.pop(nombre)
     mostrar_contactos()
+
+print ('Por favor seleccione una opción \n 1) Ver contactos \n 2) Agregar contactos \n 3) Buscar contactos \n 4) Eliminar contactos \n Presione 0 para salir')
+opcion = int(input())
+if(opcion == 0):
+    break
+elif 
+
+
+
+
  #actividad.
  # Generar un menú con las opciones antes programadas y que termine al ingresar "0".                
 

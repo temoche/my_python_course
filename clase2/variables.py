@@ -24,4 +24,4 @@ print('El resultado de 10**3 es:',x)
 
 radio = float(input('Ingrese el radio del círculo: '))
 area = round(math.pi*radio**2, 15)
-print (f'El área del circulo es: {area}')
+print (f'El area del círculo es: {area}')
