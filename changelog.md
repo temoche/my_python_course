@@ -7,3 +7,5 @@
 ### ahora puedo trabajar desde cualquier computador
 ## version 1.0.4
 ### compruebo los cambios en casa
+## version 1.0.5
+### se añade clase 6
