@@ -33,5 +33,4 @@ elif
 
 
  #actividad.
- # Generar un menú con las opciones antes programadas y que termine al ingresar "0".                
-
+ # Generar un menú con las opciones antes programadas y que termine al ingresar "0".  
