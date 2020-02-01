@@ -11,3 +11,5 @@
 ### se añade clase 6
 ## version 1.0.6
 ### Se añade clase7, se modifica el algoritmo de *area.py*, se agregan los algoritmos desarrollados en clase.
+## version 1.0.7
+### Empiezo a desarrollar el curso desde mi nueva laptop.
