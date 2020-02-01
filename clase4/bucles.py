@@ -57,14 +57,18 @@
 
 #Listas
 
-lista = [1, True, 3.0, 'Anthony', 
-            [0, 1, 2.0], False,
-            3, 0.5, 'Anchi']
-print(lista)
+# lista = [1, True, 3.0, 'Anthony', 
+#             [0, 1, 2.0], False,
+#             3, 0.5, 'Anchi']
+# print(lista)
 # print(len(lista))
 # print(lista[-2:-8:-1])
 
-lista.append('hola',1) # Añade elementos a la lista
-print(lista)
-lista.pop(1) # Elimina elementos de la lista
-print(lista)
+# lista.append('hola') # Añade elementos a la lista
+# print(lista)
+# lista.pop(1) # Elimina elementos de la lista
+# print(lista)
+# lista.extend([1,2])
+# print (lista)
+# lista.insert(7,'te amo')
+# print(lista)

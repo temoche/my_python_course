@@ -21,6 +21,10 @@ x = 10 % 7 #residuo
 print('El resultado de 10%7 es:',x)
 x = 10**3
 print('El resultado de 10**3 es:',x)
+x = 81**(0.5) #de esta manera se obtiene el mismo resultado que el obtenido mediante sqrt
+print (x)
+x = math.sqrt(49)
+print(x)
 
 radio = float(input('Ingrese el radio del círculo: '))
 area = round(math.pi*radio**2, 15)

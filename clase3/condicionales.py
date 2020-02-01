@@ -9,24 +9,26 @@
 # x *= 3 # x = x*3
 # print(x)
 # print(type(x))
+# x = 100//15
+# print (x)
 
 # name = 'Anthony'
 # age = 23
-# # print(len(name))
+# print(len(name))
 # print(name, 'is', age, 'years old.')
 # print('{} is {} years old.'.format(name, age))
-# print(f'{name} is {age} years old.')
+# print(f'{name} is {age} years old.'
 
 # v = 3 < 3
 # print(v)
 # v = 3 > 1
 # print(v)
-# # print(type(v))
-# v = (not 5 < 10) or 3 > 5
+# print(type(v))
+# v = (not 5 < 4) and 3 > 2
 # print(v)
 
-# name = input('What\'s your name? ')
-# age = int(input(f'Hi {name}, how old are you? '))
+# name = str(input('What\'s your name? '))
+# age = int(input('Hi {} how old are you? '.format(name)))
 
 # if age < 0:
 #     print('Error! An age can\'t be negative.')

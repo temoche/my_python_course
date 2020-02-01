@@ -25,9 +25,33 @@ def eliminar_contacto(nombre):
 
 print ('Por favor seleccione una opción \n 1) Ver contactos \n 2) Agregar contactos \n 3) Buscar contactos \n 4) Eliminar contactos \n Presione 0 para salir')
 opcion = int(input())
-if(opcion == 0):
-    break
-elif 
+
+
+validator = True
+while validator:
+     while validator:
+              if(opcion == 0):
+                 validator = False
+              elif (opcion == 1):
+                mostrar_contactos()
+                break
+         
+              elif (opcion == 2):
+                 agregar_contacto()
+                 break
+         
+              elif (opcion == 3):
+                 buscar_contacto()  
+                 break 
+         
+              elif (opcion == 4):
+                 eliminar_contacto()
+                 break 
+              else:
+                 print ('El número ingresado no es una opción válida. \n Por favor, intente de nuevo')    
+                    
+     else:
+          break      
 
 
 

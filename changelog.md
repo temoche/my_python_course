@@ -12,4 +12,6 @@
 ## version 1.0.6
 ### Se añade clase7, se modifica el algoritmo de *area.py*, se agregan los algoritmos desarrollados en clase.
 ## version 1.0.7
-### Empiezo a desarrollar el curso desde mi nueva laptop.
+### -Empiezo a desarrollar el curso desde mi nueva laptop.
+### -Se corrigen errores puntuales de diversos programas.
+### -Se incorpora un menú a *agenda.py* (falta editar el programa todavía)
