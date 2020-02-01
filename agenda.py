@@ -7,10 +7,12 @@ def mostrar_contactos ():
     print ('Contactos: ')
     for position, key in enumerate (dic):
         print(position + 1, key, dic[key])
+    print()
 
 def agregar_contacto (nombre):
-    dic ['nombre'] = 'apellido'
-    print (dic)
+    apellido = str(input('Ingrese el apellido del contacto: \n'))
+    dic [nombre] = apellido
+    mostrar_contactos()
     
 def buscar_contacto(nombre):
     if nombre in dic:
@@ -23,35 +25,27 @@ def eliminar_contacto(nombre):
     dic.pop(nombre)
     mostrar_contactos()
 
-print ('Por favor seleccione una opción \n 1) Ver contactos \n 2) Agregar contactos \n 3) Buscar contactos \n 4) Eliminar contactos \n Presione 0 para salir')
-opcion = int(input())
+while True:
+     print ('Por favor seleccione una opción \n 1) Ver contactos \n 2) Agregar contactos \n 3) Buscar contactos \n 4) Eliminar contactos \n Presione 0 para salir')
+     opcion = int(input())
+ 
+     if (opcion == 0):
+         break
+     elif (opcion == 1 ):                
+         mostrar_contactos()
+     elif (opcion == 2):
+         name = str(input('Ingrese el nombre del nuevo contacto: \n'))
+         agregar_contacto(name)
+     elif (opcion == 3):
+         name = str(input('Ingrese el nombre del contacto que desea buscar: \n'))
+         buscar_contacto(name)
+     elif (opcion == 4):
+         name = str(input('Ingrese el nombre del contacto que usted desee eliminar: \n'))
+         if name in dic:
+             eliminar_contacto(name) 
+         else: print('El contacto ingresado no existe. \n Por favor, intente de nuevo. \n')             
 
-
-validator = True
-while validator:
-     while validator:
-              if(opcion == 0):
-                 validator = False
-              elif (opcion == 1):
-                mostrar_contactos()
-                break
-         
-              elif (opcion == 2):
-                 agregar_contacto()
-                 break
-         
-              elif (opcion == 3):
-                 buscar_contacto()  
-                 break 
-         
-              elif (opcion == 4):
-                 eliminar_contacto()
-                 break 
-              else:
-                 print ('El número ingresado no es una opción válida. \n Por favor, intente de nuevo')    
-                    
-     else:
-          break      
+      
 
 
 

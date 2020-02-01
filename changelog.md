@@ -15,3 +15,6 @@
 ### -Empiezo a desarrollar el curso desde mi nueva laptop.
 ### -Se corrigen errores puntuales de diversos programas.
 ### -Se incorpora un menú a *agenda.py* (falta editar el programa todavía)
+## version 1.0.8
+### -Se finaliza el menú del programa *agenda.py*
+### -Sin embargo todavía falta mejorar la función *agregar_contacto*
