@@ -1,7 +1,7 @@
 #Diccionario que hace de agenda
 dic = {
 'Anthony':['Luzquiños', '936962826', 'sluzquinosa@uni.pe'],
-'Israel' :['temoche', '94535928','israel.temoche.l@uni.pe']
+'Israel' :['Temoche', '94535928','israel.temoche.l@uni.pe']
 }
 def mostrar_contactos ():
     print ('Contactos: ')

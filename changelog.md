@@ -21,3 +21,6 @@
 ## version 1.0.9
 ### -Se hace un cambio definitivo en el programa *readme.md.*
 ### -Se añaden pequeñas mejoras al programa *agenda.py*.
+## version 1.0.10
+### -Se añade el programa *agenda_poo.py* que contiene las mismas características que el programa *agenda.py*, con la diferencia de que ahora se  utiliza clases.
+### -Se añade el programa *carro.py* desarrollado en calse.
