@@ -11,7 +11,9 @@ def mostrar_contactos ():
 
 def agregar_contacto (nombre):
     apellido = str(input('Ingrese el apellido del contacto: \n'))
-    dic [nombre] = apellido
+    numero = int(input('Ingrese el número de celular del contacto: \n'))
+    correo = str(input('Ingrese el correo electrónico del nuevo contacto:\n'))
+    dic[nombre] = [apellido,numero,correo]
     mostrar_contactos()
     
 def buscar_contacto(nombre):

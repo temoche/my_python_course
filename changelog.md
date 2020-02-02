@@ -18,3 +18,6 @@
 ## version 1.0.8
 ### -Se finaliza el menú del programa *agenda.py*
 ### -Sin embargo todavía falta mejorar la función *agregar_contacto*
+## version 1.0.9
+### -Se hace un cambio definitivo en el programa *readme.md.*
+### -Se añaden pequeñas mejoras al programa *agenda.py*.
