@@ -24,3 +24,5 @@
 ## version 1.0.10
 ### -Se añade el programa *agenda_poo.py* que contiene las mismas características que el programa *agenda.py*, con la diferencia de que ahora se  utiliza clases.
 ### -Se añade el programa *carro.py* desarrollado en calse.
+## version 1.0.11
+- Se añade la clase 8
